@@ -1,0 +1,21 @@
+Student Number: 123117795
+
+Project: Library Management System
+
+The objective of this project is to design a library management system using Object-Oriented Programming (OOP) principles. This system models the interactions between a library, its members, librarians, and books.
+
+OOP Principles Used:
+
+1. Encapsulation:
+   - Private attributes such as book titles, author names, and member IDs ensure data integrity. Methods like `get_name()` and `borrow_book()` provide controlled access to this information.
+
+2. Inheritance:
+   - The `Member` and `Librarian` classes inherit from the `Person` class, allowing them to reuse the base attributes like `name` and `contact`, while adding specific functionality related to borrowing and managing books.
+
+3. Aggregation:
+   - The `Library` class aggregates collections of books, members, and librarians. Each of these objects exists independently, but they are associated with the library in the form of aggregation.
+
+4. Error Handling:
+   - The system includes error handling to ensure that invalid actions (e.g., trying to borrow a book that is already borrowed) raise appropriate exceptions.
+
+This design adheres to PEP standards, includes appropriate comments, and demonstrates the core OOP principles for a library management system.
